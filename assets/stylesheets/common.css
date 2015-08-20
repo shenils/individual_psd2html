@@ -46,6 +46,7 @@ footer {
   color: white; }
   footer .row {
     margin: 5vh;
-    text-align: left; }
+    text-align: left;
+    padding-bottom: 5vh; }
 
 /*# sourceMappingURL=common.css.map */
