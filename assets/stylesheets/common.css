@@ -1,3 +1,18 @@
+header nav.navbar {
+  margin-bottom: 0;
+  background-color: transparent;
+  border-width: 0; }
+  header nav.navbar.navbar-default .navbar-brand {
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    align: center; }
+  header nav.navbar.navbar-default .navbar-nav > li > a {
+    color: black;
+    text-align: left; }
+  header nav.navbar.navbar-default .social-media-icons {
+    transform: translateY(50%); }
+
 body {
   font-family: 'Source Sans Pro', sans-serif; }
 
@@ -5,5 +20,33 @@ body {
   position: relative;
   top: 50%;
   transform: translateY(-50%); }
+
+.downward-arrow {
+  transform: translateY(70vh);
+  font-size: 2em; }
+
+.header-line {
+  text-align: center;
+  margin-top: 10em; }
+  .header-line h2.main-body {
+    color: black;
+    font-weight: 700; }
+  .header-line h2.page-bottom {
+    color: white;
+    font-weight: 700; }
+  .header-line p {
+    max-width: 60vw;
+    color: #737373;
+    margin-bottom: 4em; }
+
+footer {
+  align: center;
+  text-align: center;
+  background-color: black;
+  color: white; }
+  footer .row {
+    margin: 5vh;
+    text-align: left;
+    padding-bottom: 5vh; }
 
 /*# sourceMappingURL=common.css.map */

@@ -1,0 +1,16 @@
+#newsletter {
+  background-color: black;
+  align: center;
+  text-align: center; }
+  #newsletter .newsletter-form {
+    color: #ececec;
+    width: 40vw;
+    border: none;
+    height: 4vh; }
+  #newsletter .submit-button {
+    height: 4vh;
+    background-color: #ececec;
+    color: black;
+    border: none; }
+
+/*# sourceMappingURL=newsletter.css.map */

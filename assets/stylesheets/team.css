@@ -1,0 +1,25 @@
+#team {
+  text-align: center;
+  align: center; }
+  #team img {
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px; }
+  #team .exec-name {
+    margin-top: 1em;
+    font-weight: 700;
+    transform: translateX(-10%);
+    font-size: 1.5em; }
+  #team .nonsense {
+    font-size: 1em;
+    transform: translateX(-10%);
+    color: #737373; }
+  #team .exec-social {
+    transform: translateX(-10%); }
+    #team .exec-social i {
+      margin: 0.5em 0.5em 0 0.5em;
+      font-size: 1.3em; }
+
+/*# sourceMappingURL=team.css.map */
