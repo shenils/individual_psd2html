@@ -1,0 +1,47 @@
+#testimonial {
+  text-align: center;
+  align: center; }
+  #testimonial i {
+    font-size: 5em; }
+  #testimonial .stat {
+    font-weight: 700;
+    font-size: 2em;
+    transform: translateX(0%);
+    margin-bottom: 0; }
+  #testimonial .unit-measured {
+    font-size: 0.75;
+    transform: translateX(0%);
+    color: #737373; }
+  #testimonial img {
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 75px;
+    margin-top: 1em; }
+  #testimonial .client-name {
+    margin-top: 1em;
+    font-weight: 700;
+    transform: translateX(0%);
+    font-size: 1.5em;
+    margin-bottom: 0; }
+  #testimonial .client-firm {
+    margin-top: 0;
+    padding: 0; }
+  #testimonial .client-quote {
+    color: #737373;
+    text-align: center;
+    margin-top: 2em;
+    padding: 0; }
+    #testimonial .client-quote i {
+      font-size: 1.5em; }
+      #testimonial .client-quote i .theleftquote {
+        text-align: right;
+        transform: translateX(-100%); }
+      #testimonial .client-quote i .therightquote {
+        text-align: left;
+        transform: translateX(100%); }
+  #testimonial .client-feedback {
+    font-size: 2em; }
+
+/*# sourceMappingURL=testimonial.css.map */

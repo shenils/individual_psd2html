@@ -1,0 +1,30 @@
+#team {
+  text-align: center;
+  align: center;
+  img {
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+  }
+  .exec-name {
+    margin-top: 1em;
+    font-weight: 700;
+    transform: translateX(-10%);
+    font-size: 1.5em;
+  }
+
+  .nonsense {
+    font-size: 1em;
+    transform: translateX(-10%);
+    color: #737373;
+  }
+  .exec-social {
+    i {
+      margin: 0.5em 0.5em 0 0.5em;
+      font-size: 1.3em;  
+    }
+    transform: translateX(-10%);
+  }
+}

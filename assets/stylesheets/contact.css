@@ -1,0 +1,35 @@
+#contact {
+  text-align: center; }
+  #contact i {
+    font-size: 4em; }
+  #contact .connect-via {
+    font-weight: 700;
+    font-size: 2em;
+    transform: translateX(0%);
+    margin-bottom: 0; }
+  #contact .contact-details {
+    font-size: 0.75;
+    transform: translateX(50%);
+    color: #737373;
+    max-width: 10vw; }
+  #contact .contact-field {
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-bottom: 0.5em;
+    height: 4vh;
+    transform: translateX(10%);
+    width: 20vw; }
+  #contact .message-form {
+    height: 30vh; }
+  #contact .submit-button {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 4vh;
+    width: 9vw;
+    margin-top: 3px;
+    font-size: 1em;
+    transform: translateX(20%); }
+
+/*# sourceMappingURL=contact.css.map */

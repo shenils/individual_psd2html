@@ -1,0 +1,15 @@
+#portfolio .col-sm-3 {
+  text-align: center;
+  margin-top: 4em; }
+  #portfolio .col-sm-3 .work-title {
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+  #portfolio .col-sm-3 .project-note {
+    font-size: 0.75;
+    max-width: 10vw;
+    transform: translateX(20%);
+    color: #737373;
+    margin-top: 0; }
+
+/*# sourceMappingURL=portfolio.css.map */

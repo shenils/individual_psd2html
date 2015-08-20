@@ -1,0 +1,53 @@
+#pricing {
+  text-align: center;
+  align: center;
+
+  .device {
+
+    transform: translateX(35%);
+
+    .circle {
+      width: 100px;
+      height: 100px;
+      background: #ececec;
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 50px;
+      font-size: 4em;
+      font-weight: 500;
+      font-color: black;
+      text-align: center;
+
+      i.fa {
+        position: relative;
+        transform: translateY(10%);
+      } 
+    }
+  }
+  
+  h3 {
+    font-weight: 700;
+  }
+  .descriptive-nonsense {
+    font-size: 0.75;
+    max-width: 10vw;
+    transform: translateX(50%);
+    color: #737373;
+  }
+
+  .pricetag {
+    font-size: 2em;
+    font-weight: 700;
+    border-bottom: solid;
+    margin-bottom: 0;
+    display: inline-block;
+  }
+  
+  .price-action {
+    font-weight: 700;
+    border: solid;
+    display: inline-block;
+    padding: 0.1em 0.5em;
+    font-size: 1em;
+  }
+}
