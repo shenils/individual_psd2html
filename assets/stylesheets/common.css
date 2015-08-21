@@ -2,11 +2,18 @@ header nav.navbar {
   margin-bottom: 0;
   background-color: transparent;
   border-width: 0; }
+  header nav.navbar.affix {
+    background-color: white;
+    border-bottom: 2px solid black; }
+  header nav.navbar.affix-top {
+    background-color: transparent; }
   header nav.navbar.navbar-default .navbar-brand {
     color: black;
     font-size: 2em;
     font-weight: bold;
-    align: center; }
+    display: inline-block;
+    margin-left: 40%;
+    text-transform: translateX(-100%); }
   header nav.navbar.navbar-default .navbar-nav > li > a {
     color: black;
     text-align: left; }
@@ -16,14 +23,10 @@ header nav.navbar {
 body {
   font-family: 'Source Sans Pro', sans-serif; }
 
-.vcenter {
+#land .vcenter {
   position: relative;
   top: 50%;
   transform: translateY(-50%); }
-
-.downward-arrow {
-  transform: translateY(70vh);
-  font-size: 2em; }
 
 .header-line {
   text-align: center;
