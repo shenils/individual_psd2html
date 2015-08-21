@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="assets/stylesheets/app.min.css">
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="assets/javascripts/app.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,200,200italic,300italic,400italic,600,600italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
@@ -23,7 +24,6 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">tinyone</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -34,16 +34,17 @@
                 <i class="fa fa-bars"></i>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Newsletter</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
               </ul>
             </li>
           </ul>
+          <a class="navbar-brand" href="#">tinyone</a>
 
           <div class="social-media-icons navbar-right"><!-- social media icons -->
             <i class="fa fa-facebook"></i>
@@ -135,43 +136,51 @@
       <h2 class="main-body">Pricing and Free Trial</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa recusandae vero a beatae repudiandae suscipit eos facilis commodi laborum quod impedit veritatis voluptatum, voluptatem consequatur itaque deleniti enim corporis, voluptatibus!</p>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="device">
-            <div class="circle">
-              <i class="fa fa-tablet"></i>
+    <div class="the-pricing-part">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="device">
+              <div class="circle">
+                <i class="fa fa-tablet"></i>
+              </div>
             </div>
+            <h3>Basic</h3>
+            <p class="descriptive-nonsense">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, ullam.</p>
+            <p class="pricetag">FREE</p>
+            <p class="descriptive-nonsense">free forever</p>
+            <a href="#contact">
+              <p class="price-action">GET FREE NOW</p>
+            </a>
           </div>
-          <h3>Basic</h3>
-          <p class="descriptive-nonsense">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, ullam.</p>
-          <p class="pricetag">FREE</p>
-          <p class="descriptive-nonsense">free forever</p>
-          <p class="price-action">GET FREE NOW</p>
-        </div>
-        <div class="col-sm-4">
-          <div class="device">
-            <div class="circle">
-              <i class="fa fa-laptop"></i>
+          <div class="col-sm-4">
+            <div class="device">
+              <div class="circle">
+                <i class="fa fa-laptop"></i>
+              </div>
             </div>
+            <h3>Standard</h3>
+            <p class="descriptive-nonsense">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, voluptatem!</p>
+            <p class="pricetag">$99</p>
+            <p class="descriptive-nonsense">month</p>
+            <a href="#contact">
+              <p class="price-action">UPGRADE</p>
+            </a>
           </div>
-          <h3>Standard</h3>
-          <p class="descriptive-nonsense">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, voluptatem!</p>
-          <p class="pricetag">$99</p>
-          <p class="descriptive-nonsense">month</p>
-          <p class="price-action">UPGRADE</p>
-        </div>
-        <div class="col-sm-4">
-          <div class="device">
-            <div class="circle">
-              <i class="fa fa-desktop"></i>
+          <div class="col-sm-4">
+            <div class="device">
+              <div class="circle">
+                <i class="fa fa-desktop"></i>
+              </div>
             </div>
+            <h3>Enterprise</h3>
+            <p class="descriptive-nonsense">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, consectetur.</p>
+            <p class="pricetag">$199</p>
+            <p class="descriptive-nonsense">month</p>
+            <a href="#contact">
+              <p class="price-action">LEARN MORE</p>
+            </a>
           </div>
-          <h3>Enterprise</h3>
-          <p class="descriptive-nonsense">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, consectetur.</p>
-          <p class="pricetag">$199</p>
-          <p class="descriptive-nonsense">month</p>
-          <p class="price-action">LEARN MORE</p>
         </div>
       </div>
     </div>
@@ -384,7 +393,7 @@
   </section>
   <footer>
     <div class="container">
-      <div class="row">
+      <div class="row footer-text">
         <div class="col-sm-1"></div>
         <div class="col-sm-3">Italian Exports <br> 66 Fifth Avenue <br>Beijing, China <br> contact@me.com <br> +000 000 00000 </div>
         <div class="col-sm-2">Examples <br> Shop <br> Lisence</div>

@@ -3,12 +3,23 @@ header {
     margin-bottom: 0;
     background-color: transparent;
     border-width: 0;
+
+    &.affix {
+      background-color: white;
+      border-bottom: 2px solid black;
+    } 
+
+    &.affix-top {
+      background-color: transparent;
+    }
   
     &.navbar-default .navbar-brand {
       color: black;
       font-size: 2em;
       font-weight: bold;
-      align: center;
+      display: inline-block;
+      margin-left: 40%;
+      text-transform: translateX(-100%);
     }
 
     &.navbar-default .navbar-nav>li>a {
@@ -23,6 +34,7 @@ header {
   }
 }
 
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -33,8 +45,9 @@ body {
   transform: translateY(-50%);
 }
 
+
 .downward-arrow {
-  transform: translateY(70vh);
+  transform: translateY(65vh);
   font-size: 2em;
 }
 
