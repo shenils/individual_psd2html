@@ -23,14 +23,10 @@ header nav.navbar {
 body {
   font-family: 'Source Sans Pro', sans-serif; }
 
-.vcenter {
+#land .vcenter {
   position: relative;
   top: 50%;
   transform: translateY(-50%); }
-
-.downward-arrow {
-  transform: translateY(65vh);
-  font-size: 2em; }
 
 .header-line {
   text-align: center;

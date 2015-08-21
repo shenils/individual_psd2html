@@ -35,20 +35,17 @@ header {
 }
 
 
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.vcenter {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-
-.downward-arrow {
-  transform: translateY(65vh);
-  font-size: 2em;
+#land {
+  .vcenter {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 
