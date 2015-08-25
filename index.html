@@ -38,7 +38,7 @@
                 <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#team">Team</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#testimonial">Testimonials</a></li>
                 <li><a href="#contact">Contact Us</a></li>
                 <li><a href="#newsletter">Newsletter</a></li>
               </ul>
@@ -281,7 +281,7 @@
         </div>
         <div class="col-sm-3">
           <img src="assets/images/sonny.jpg" class="img-responsive" alt="sonny">
-          <p class="exec-name">Santino "Sonny" Corleone</p>
+          <p class="exec-name">Santino Corleone</p>
           <p class="nonsense">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, quasi!</p>
           <div class="exec-social">
             <i class="fa fa-facebook"></i>
@@ -332,23 +332,91 @@
       </div>
     </div>
     
-    <img src="assets/images/woltz.jpg" alt="Woltz">
-    <p class="client-name">Jack Woltz</p>
-    <p class="client-firm">From Hollywood</p>
 
-    <div class="row client-quote">
-      <div class="col-sm-4"></div>
-      <div class="col-sm-1 theleftquote">
-        <i class="fa fa-quote-left"></i>
+    <div id="carousel-example-generic" class="carousel slide abc" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active test-content">
+            <div class="testimonial-eg testimonial-shown">
+              <img src="assets/images/woltz.jpg" alt="Woltz">
+              <p class="client-name">Jack Woltz</p>
+              <p class="client-firm">From Hollywood</p>
+
+              <div class="row client-quote">
+                <div class="col-sm-1 theleftquote">
+                  <i class="fa fa-quote-left"></i>
+                </div>
+                <div class="col-sm-2">
+                  <p class="client-feedback">1. They made me an offer that I couldn't refuse!</p>
+                </div>
+                <div class="col-sm-1 therightquote">
+                  <i class="fa fa-quote-right"></i>
+                </div>
+              </div>      
+            </div>
+        </div>
+        <div class="item test-content">
+          <div class="testimonial-eg testimonial-shown">
+              <img src="assets/images/woltz.jpg" alt="Woltz">
+              <p class="client-name">Jack Woltz</p>
+              <p class="client-firm">From Hollywood</p>
+
+              <div class="row client-quote">
+                <div class="col-sm-1 theleftquote">
+                  <i class="fa fa-quote-left"></i>
+                </div>
+                <div class="col-sm-2">
+                  <p class="client-feedback">2. They made me an offer that I couldn't refuse!</p>
+                </div>
+                <div class="col-sm-1 therightquote">
+                  <i class="fa fa-quote-right"></i>
+                </div>
+              </div>      
+            </div>
+        </div>
+        <div class="item test-content">
+          <div class="testimonial-eg testimonial-shown">
+              <img src="assets/images/woltz.jpg" alt="Woltz">
+              <p class="client-name">Jack Woltz</p>
+              <p class="client-firm">From Hollywood</p>
+
+              <div class="row client-quote">
+                <div class="col-sm-1 theleftquote">
+                  <i class="fa fa-quote-left"></i>
+                </div>
+                <div class="col-sm-2">
+                  <p class="client-feedback">3. They made me an offer that I couldn't refuse!</p>
+                </div>
+                <div class="col-sm-1 therightquote">
+                  <i class="fa fa-quote-right"></i>
+                </div>
+              </div>      
+            </div>
+        </div>
       </div>
-      <div class="col-sm-2">
-        <p class="client-feedback">They made me an offer that I couldn't refuse!</p>
-      </div>
-      <div class="col-sm-1 therightquote">
-        <i class="fa fa-quote-right"></i>
-      </div>
-      <div class="col-sm-4"></div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
+
+
+
+
+
   </section>
   <section id="contact">
     <div class="header-line container">
@@ -375,9 +443,9 @@
       </div>
     </div>
     <form>
-      <input type="text" placeholder="Email" name="email" class="email-form contact-field"><br>
-      <input type="text" placeholder="Full Name" name="fullname" class="name-form contact-field"><br>
-      <input type="text" placeholder="Message" name="message" class="message-form contact-field"><br>
+      <textarea rows="1" cols="50" placeholder="Email" class="contact-field"></textarea><br>
+      <textarea rows="1" cols="50" placeholder="Full Name" class="contact-field"></textarea><br>
+      <textarea rows="10" cols="50" placeholder="Message" class="contact-field message-form"></textarea><br>
       <input type="submit" value="Send Message" class="submit-button">
     </form>
   </section>

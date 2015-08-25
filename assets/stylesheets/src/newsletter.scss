@@ -4,10 +4,11 @@
   text-align: center;
 
   .newsletter-form {
-    color: #ececec;
+    color: black;
     width: 40vw;
     border: none;
     height: 4vh;
+    padding-left: 4px;
   }
 
   .submit-button {
@@ -15,5 +16,8 @@
     background-color: #ececec;
     color: black;
     border: none;
+    margin-left: 2px;
+    width: 10vw;
+    font-weight: 600;
   }
 }

@@ -2,21 +2,21 @@
   text-align: center;
 
   i {
-    font-size: 4em;
+    font-size: 2em;
   }
 
   .connect-via {
     font-weight: 700;
     font-size: 2em;
-    transform: translateX(0%);
     margin-bottom: 0;
   }
 
   .contact-details {
-    font-size: 0.75;
+    font-size: 1.1em;
     transform: translateX(50%);
     color: #737373;
     max-width: 10vw;
+    padding-bottom: 4em;
   }
   
   .contact-field {
@@ -27,10 +27,14 @@
     height: 4vh;
     transform: translateX(10%);
     width: 20vw;
+    padding-left: 2px;
+    font-size: 1.1em;
+
   }
 
   .message-form {
     height: 30vh;
+    font-size: 1.1em;
   }
   
   .submit-button {
@@ -40,7 +44,7 @@
     height: 4vh;
     width: 9vw;
     margin-top: 3px;
-    font-size: 1em;
+    font-size: 1.3em;
     transform: translateX(20%);
   }
 }

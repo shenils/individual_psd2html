@@ -9,16 +9,21 @@ header nav.navbar {
     background-color: transparent; }
   header nav.navbar.navbar-default .navbar-brand {
     color: black;
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
     display: inline-block;
-    margin-left: 40%;
-    text-transform: translateX(-100%); }
+    margin-left: 50%;
+    transform: translateX(-10%);
+    position: absolute;
+    left: 0;
+    right: 0; }
   header nav.navbar.navbar-default .navbar-nav > li > a {
     color: black;
     text-align: left; }
   header nav.navbar.navbar-default .social-media-icons {
     transform: translateY(50%); }
+  header nav.navbar i {
+    font-size: 2em; }
 
 body {
   font-family: 'Source Sans Pro', sans-serif; }
@@ -30,17 +35,21 @@ body {
 
 .header-line {
   text-align: center;
-  margin-top: 10em; }
-  .header-line h2.main-body {
-    color: black;
-    font-weight: 700; }
-  .header-line h2.page-bottom {
-    color: white;
-    font-weight: 700; }
+  margin-top: 10em;
+  padding-top: 5em; }
+  .header-line h2 {
+    font-size: 3em; }
+    .header-line h2.main-body {
+      color: black;
+      font-weight: 700; }
+    .header-line h2.page-bottom {
+      color: white;
+      font-weight: 700; }
   .header-line p {
     max-width: 60vw;
     color: #737373;
-    margin-bottom: 4em; }
+    margin-bottom: 4em;
+    font-size: 1.5em; }
 
 footer {
   align: center;
